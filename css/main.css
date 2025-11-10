@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+   background: rgb(236, 235, 235); 
+   display: grid;
+   grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+   align-items: center;
+}
+nav .logo{
+    text-align: center;
+}
+nav ul{
+    display: contents;
+}
+nav .logo img{width: 40%;
+}
+.menu{
+    text-align: center;
+}
+.user{
+    text-align: center;
+}
+.panier{
+    text-align: center;
+}
+.panier a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    width: 70%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 9rem;
+}
+section h1{
+    text-align: center;
+    margin: 2rem 0;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+    background: rgb(236, 235, 235);
+}
+footer .cvg{
+    text-align: center;
+    width: 50%;
+}
+footer .mentions{
+    text-align: center;
+    width: 50%;
+}
+footer i{
+    margin: 0 1.2rem;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    row-gap: 5%;
+}
+.card{
+    height: 27rem;
+}
+.card-text{
+    height: 3rem;
+    overflow: hidden;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+}
+.listUser{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    row-gap: 5%;
+}
+.listUser img{
+    width: 10%;
+}
+.ficheproduit{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 5%;
+}
+main{
+    text-align: center;
+    padding: 2rem;   
+}
+main h2{
+    margin: 2rem;
+}
+.prix{
+    padding: 1.2rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.prix p{
+    margin: 0;
+    font-size: 2rem;
+}
+.prix button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.listUserItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ajoutproduit{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2rem 0;
+}
+.createproduit{
+    text-align: left;
+}
+.createproduit button{
+    margin: 2rem 0;
+}
+.editproduit{
+    text-align: left;
+}
+.editbtn{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin: 2rem 0;
+}
+.mainprofil{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    gap: 10%;
+}
+.profil{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 75%;
+    padding: 2rem;
+}
+.infos{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mesproduits{
+    display: flex;
+    flex-direction: column;
+}
+.profilbtn{
+    display: flex;
+    flex-direction: column;
+}
+.profilbtn a{
+    margin: 1rem 0;
+}
